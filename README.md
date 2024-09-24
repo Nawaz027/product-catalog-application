@@ -33,7 +33,7 @@ This is a simple Spring Boot application that provides a RESTful API for managin
 
     Create a MySQL Database Open the MySQL command line or a MySQL client and run the following command to create a new database:
 
-
+    sql
 
 CREATE DATABASE product_catalog;
 
@@ -49,6 +49,7 @@ spring.jpa.show-sql=true
 
 Build the Application Use Gradle to build the application:
 
+bash
 
 ./gradlew build
 
