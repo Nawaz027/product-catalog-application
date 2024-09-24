@@ -1,1 +1,33 @@
-.build
+# Build directories
+/build/
+/target/
+
+# IDE specific files
+/.idea/
+/.vscode/
+/*.iml
+/.project
+/.classpath
+
+# Compiled class files
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Local environment variables
+.env
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
